@@ -3,21 +3,23 @@
                      - Roboto 
                      - Labrada 
                      - Montserrat
-
                      */
-                     @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Labrada:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+                    
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Labrada:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
 *{
-    font-family: "Roboto";
+    font-family: "Roboto"; /*Configuración de la letra base de toda al web*/
     margin: 0;
     padding: 0;
  }
-                     
+
+ 
 html{
     scroll-behavior: smooth;
 }
-                     
+
+
 /* Seccion inicio */
-                     
+              
 .inicio{
       background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
       url("imagenes/fondoinicio.jpg");
@@ -316,7 +318,6 @@ html{
 .trabajo{
     font-size: 1.2rem;
     display: inline-block;
-    font-family: "Roboto";
     margin-bottom: 2em;
   }
   
@@ -384,7 +385,6 @@ html{
 .contacto .contenido-contacto h3{
     text-transform: uppercase;
     font-size: 1.2rem;
-    font-family: "Roboto";
     padding-bottom: 1rem;
 }
 
